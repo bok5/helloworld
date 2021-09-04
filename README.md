@@ -49,7 +49,7 @@ public class Main
                 }
             }while (w!=i);  //要求每道题的答案各不相同
             pw1.println(y);
-            pw2.println(answer[i]);
+            pw2.println((i+1)+". "+answer[i]);
         }
         pw1.close();
         pw2.close();
